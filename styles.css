@@ -77,7 +77,27 @@ body{
   display: inline;
   margin-left: 20rem;
 }
-
+/* popup section */
+.popup{
+    width: 8%;
+    height: 60px;
+    padding-top: .2rem;
+    padding-left: .8rem;
+    background-color: #fff;
+    color: #000;
+    clip-path: polygon(0 0,100% 0,100% 100%,80% 70% ,0 70%);
+    border-radius: 5px;
+    font-size:1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top:33%;
+    right: 23%;
+}
+.popup__subtitle{
+    font-size: .7rem;
+    font-weight: 700;
+    color: #444;
+}
 
 /* footer section */
 .attribution { 
