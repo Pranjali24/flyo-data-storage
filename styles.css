@@ -8,17 +8,20 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .header{
-    max-width: 1140px;
+    min-width: 1140px;
     margin: 0 auto;
-    
+    background-color:hsl(229, 57%, 11%) ;
+    position: relative;
 }
 .header__content{
-    height: 600px;
+    height: 250px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 2rem 3rem;
-    background-color: #eee;
+    padding: 2rem 3rem 3rem;
+}
+.bottom__image{
+    height: 350px;
+    width: 100%;
 }
 .document{
     width: 25%;
@@ -26,6 +29,10 @@ body{
     border-radius: 5px 80px 5px 5px;
     margin-right: 1rem;
     padding: 1.5rem 0 1.5rem 2rem;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-40%);
 }
 .logo{
     height: 4rem;
@@ -42,6 +49,10 @@ body{
 }
 /* Progres Section */
 .progres__section{
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    transform: translate(-50%,-50%);
     color: #eee;
     font-size: .7rem;
     background-color: hsl(228, 56%, 26%);
