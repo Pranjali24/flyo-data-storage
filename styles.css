@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size:14px ;
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.header__content{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #eee;
+}
+.document{
+    width: 25%;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5px 80px 5px 5px;
+    margin-right: 1rem;
+    padding: 1.5rem 0 1.5rem 2rem;
+}
+.logo{
+    height: 4rem;
+    width: 7rem;
+    padding: 1rem 0;
+}
+.image{
+    background-color: hsl(229, 57%, 11%);
+    padding: .5rem;
+    border-radius: 8px;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 .4rem;
+}
+/* Progres Section */
+.progres__section{
+    color: #eee;
+    font-size: .7rem;
+    background-color: hsl(228, 56%, 26%);
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    border-radius: 6px;
+}
+.progres__detail{
+    margin-bottom: 1rem;
+}
+.progres{
+    width: 400px;
+    background: aqua;
+    /* cursor: pointer;
+    appearance: none; */
+}
+
+.progres__min{
+  display: inline;
+}
+.progres__max{
+  display: inline;
+  margin-left: 20rem;
+}
+
+
+/* footer section */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 1rem; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
