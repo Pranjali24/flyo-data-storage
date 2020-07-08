@@ -63,13 +63,6 @@ body{
 .progres__detail{
     margin-bottom: 1rem;
 }
-.progres{
-    width: 400px;
-    background: aqua;
-    /* cursor: pointer;
-    appearance: none; */
-}
-
 .progres__min{
   display: inline;
 }
@@ -97,6 +90,30 @@ body{
     font-size: .7rem;
     font-weight: 700;
     color: #444;
+}
+/* slider design */
+.slider{
+    -webkit-appearance: none;
+    width:400px ;
+    height:12px;
+    border-radius: 8px;
+    background:-webkit-linear-gradient(left,rgb(209, 174, 180) 0%, rgb(231, 74, 100) 60%,hsl(229, 57%, 11%) 40%);
+
+    outline: none;
+    border: 1px solid hsl(229, 57%, 11%);
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: #eee;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb{
+    background: #fff;
+    color: #777;
 }
 
 /* footer section */
